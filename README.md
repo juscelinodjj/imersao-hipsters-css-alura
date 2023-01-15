@@ -1,7 +1,7 @@
 # Imersão Hipsters CSS | Alura
 
 #### 5 aulas com [Vanessa Tonini](https://github.com/vanessametonini) e [Juliana Amoasei](https://github.com/JulianaAmoasei).
-- [ ] **Página Pessoal**
+- [x] **Página Pessoal**
   - Github pages
   - Background
   - Flexbox

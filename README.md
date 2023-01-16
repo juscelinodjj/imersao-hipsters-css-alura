@@ -5,6 +5,11 @@
   - Github pages
   - Background
   - Flexbox
+  - **Conteúdo extra**
+    - Box-model
+    - Box-shadow
+    - Box-sizing
+    - [flukeout](https://flukeout.github.io)
 - [ ] **Sites responsivos**
   - CSS reset
   - Media queries

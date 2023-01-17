@@ -1,12 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-image: url('../img/fundo.jpg');
   background-size: auto 100vh;
   font-family: Arial;
+  font-size: 12px;
   height: 100vh;
+}
+
+@media (min-width: 400px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-color: deeppink;
+    background-image: none;
+    font-size: 20px;
+  }
+}
+
+header {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
 }
 
 .menu {
   background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100vw;
 }
 
 .menu ul {
@@ -20,6 +57,8 @@ body {
 
 .menu a {
   color: teal;
+  display: block;
+  padding: 10px 20px;
   text-decoration: none;
 }
 
@@ -35,4 +74,13 @@ body {
 
 .site-subtitle {
   font-style: italic;
+}
+
+.site-title {
+  font-size: 4em;
+}
+
+.img-portfolio {
+  height: 180px;
+  width: 180px;
 }

@@ -10,7 +10,7 @@
     - Box-shadow
     - Box-sizing
     - [flukeout](https://flukeout.github.io)
-- [ ] **Sites responsivos**
+- [x] **Sites responsivos**
   - CSS reset
   - Media queries
   - Position

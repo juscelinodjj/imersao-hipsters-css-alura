@@ -16,7 +16,7 @@
   - Position
   - **Conteúdo extra**
     - [flexboxfroggy](https://flexboxfroggy.com/#pt-br)
-- [ ] **Colunas e linhas**
+- [x] **Colunas e linhas**
   - Google Fonts
   - Icones
   - CSS Grid

@@ -42,6 +42,7 @@ header {
   position: fixed;
   top: 0;
   width: 100vw;
+  z-index: 1;
 }
 
 .menu ul {
@@ -58,10 +59,30 @@ header {
   display: block;
   padding: 10px 20px;
   text-decoration: none;
+  transition: background-color 1s, color 1s;
 }
 
+.menu a:active,
 .menu a:hover {
-  text-decoration: underline;
+  background-color: teal;
+  color: white;
+}
+
+.titulo {
+  animation: 1s ease 2s animacaoTitulo forwards;
+  opacity: 0;
+  transform: scale(0.2) translateY(50vh);
+}
+
+@keyframes animacaoTitulo {
+  from {
+    opacity: 0;
+    transform: scale(0.2) translateY(50vh);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
 }
 
 .site-subtitle,
@@ -81,16 +102,19 @@ header {
   font-size: 4em;
 }
 
+.contato,
 .portfolio {
-  height: 100vh;
+  min-height: 100vh;
   padding: 2em;
 }
 
+.contato h3,
 .portfolio h3 {
   color: whitesmoke;
   font-family: 'Press Start 2P', cursive;
   font-size: 2em;
   margin-bottom: 1.5em;
+  margin-top: 0.8em;
 }
 
 .portfolio .grid {
@@ -121,5 +145,26 @@ header {
   border-radius: 5px;
   height: 180px;
   object-fit: cover;
+  transition: transform 500ms;
   width: 240px;
+}
+
+.img-portfolio:hover {
+  transform: scale(1.2) rotate(-2deg);
+}
+
+.contato .icons {
+  text-align: center;
+}
+
+.contato a {
+  color: whitesmoke;
+  font-size: 4em;
+  text-decoration: none;
+  transition: text-shadow 1s;
+}
+
+.contato a:active,
+.contato a:hover {
+  text-shadow: 0px 0px 10px rgba(255,255,255,.5);
 }

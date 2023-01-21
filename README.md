@@ -24,7 +24,7 @@
   - Object-fit
   - **Conteúdo extra**
     - [cssgridgarden](https://cssgridgarden.com/#pt-br)
-- [ ] **Animando tudo!**
+- [x] **Animando tudo!**
   - Transition
   - Transform
   - Animations

@@ -33,3 +33,7 @@
   - Clip-path
   - Efeitos 3D
   - CSS Generativo
+  - **Conteúdo extra**
+    - [clippy](https://bennettfeely.com/clippy)
+    - [css-doodle](https://css-doodle.com)
+    - [caniuse](https://caniuse.com)

@@ -11,9 +11,9 @@
     <script src="https://kit.fontawesome.com/1f25fb2725.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header id="sobre">
+    <header>
       <nav class="menu">
-        <ul>
+        <ul class="container">
           <li><a href="#sobre">Sobre</a></li>
           <li><a href="#portfolio">Portfólio</a></li>
           <li><a href="#contato">Contato</a></li>
@@ -24,32 +24,88 @@
         <h2 class="site-subtitle">Front-end Developer</h2>
       </div>
     </header>
-    <section class="portfolio" id="portfolio">
+    <section class="container sobre" id="sobre">
+      <h3>Sobre</h3>
+      <figure class="avatar">
+        <img src="assets/img/avatar.jpg" alt="avatar">
+      </figure>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quidem
+        atque architecto, odit doloremque consectetur vero! Aut fugit neque
+        sequi id non rerum facilis incidunt explicabo. Officia beatae vitae
+        laudantium!
+      </p>
+      <p>
+        Tenetur dicta rem ut aliquid quo eos non expedita impedit. Ipsa sapiente
+        corrupti iusto eum similique voluptatum magni velit sit ab, vitae quas,
+        perspiciatis excepturi, vel quaerat itaque dicta repudiandae?
+      </p>
+      <p>
+        Unde necessitatibus fugiat similique aperiam ipsa voluptatum ex commodi
+        repellendus! Sequi libero accusantium facere quis, dolores voluptate
+        itaque distinctio natus iure, quibusdam eaque. Laborum incidunt nesciunt
+        facere aperiam quibusdam inventore.
+      </p>
+      <p>
+        Este site foi construído durante a Imersão CSS da Alura.
+      </p>
+    </section>
+    <section class="container portfolio" id="portfolio">
       <h3>Portfólio</h3>
       <div class="grid">
-        <figure>
-          <img class="img-portfolio" src="assets/img/ecommerce-creditos-s-o-c-i-a-l-c-u-t-unsplash.jpg" alt="eCommerce">
-          <figcaption>eCommerce</figcaption>
-        </figure>
-        <figure>
-          <img class="img-portfolio" src="assets/img/mobile-creditos-nate-grant-unsplash.jpg" alt=">Mobile">
-          <figcaption>Mobile</figcaption>
-        </figure>
-        <figure>
-          <img class="img-portfolio" src="assets/img/webdesign-creditos-domenico-loia-unsplash.jpg" alt="Web design">
-          <figcaption>Web design</figcaption>
-        </figure>
-        <figure>
-          <img class="img-portfolio" src="assets/img/projpessoais-creditos-hal-gatewood-unsplash.jpg" alt="Projetos pessoais">
-          <figcaption>Projetos pessoais</figcaption>
-        </figure>
-        <figure>
-          <img class="img-portfolio" src="assets/img/projpessoais-creditos-hal-gatewood-unsplash.jpg" alt="Outros projetos pessoais">
-          <figcaption>Outros projetos pessoais</figcaption>
-        </figure>
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="assets/img/ecommerce-creditos-s-o-c-i-a-l-c-u-t-unsplash.jpg" alt="eCommerce">
+            </figure>
+            <div class="card-back">
+              <h4>eCommerce</h4>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="assets/img/mobile-creditos-nate-grant-unsplash.jpg" alt=">Mobile">
+            </figure>
+            <div class="card-back">
+              <h4>Mobile</h4>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="assets/img/webdesign-creditos-domenico-loia-unsplash.jpg" alt="Web design">
+            </figure>
+            <div class="card-back">
+              <h4>Web design</h4>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="assets/img/projpessoais-creditos-hal-gatewood-unsplash.jpg" alt="Projetos pessoais">
+            </figure>
+            <div class="card-back">
+              <h4>Projetos pessoais</h4>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="assets/img/projpessoais-creditos-hal-gatewood-unsplash.jpg" alt="Outros projetos">
+            </figure>
+            <div class="card-back">
+              <h4>Outros projetos</h4>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    <section class="contato" id="contato">
+    <section class="container contato" id="contato">
       <h3>Contato</h3>
       <div class="grid icons">
         <a target="_blank" href="https://github.com">

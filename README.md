@@ -29,7 +29,7 @@
   - Transform
   - Animations
   - @Keyframes
-- [ ] **Efeitos visuais**
+- [x] **Efeitos visuais**
   - Clip-path
   - Efeitos 3D
   - CSS Generativo
